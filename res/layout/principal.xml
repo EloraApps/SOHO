@@ -1,0 +1,186 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="asac.pacojh.soho.MainActivity"
+    tools:ignore="MergeRootFrame" >
+    
+	 <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        
+        >
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:orientation="horizontal"
+	        android:layout_weight="0.25"
+	        >
+	        
+	        <LinearLayout
+	            android:id="@+id/eit171"
+		        android:layout_width="match_parent"
+		        android:layout_height="match_parent"
+		        android:orientation="vertical"
+		        android:layout_weight="0.5"
+		        android:background="#000000"
+		        android:clickable = "true">
+
+	            <ImageView
+	                android:id="@+id/imageView1"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:src="@drawable/eit171" />
+
+	    	</LinearLayout>
+	    	
+	    	<LinearLayout
+	            android:id="@+id/eit195"
+		        android:layout_width="match_parent"
+		        android:layout_height="match_parent"
+		        android:orientation="vertical"
+		        android:background="#000000" 
+		        android:layout_weight="0.5"
+		        android:clickable = "true">
+	            
+	    	     <ImageView
+	                android:id="@+id/imageView1"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:src="@drawable/eit195" />
+	    	     
+	    	</LinearLayout>
+	    
+	    </LinearLayout>
+	
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:orientation="horizontal"
+	        android:layout_weight="0.25" >
+	
+	        <LinearLayout
+	            android:id="@+id/eit284"
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent"
+	            android:layout_weight="0.5"
+	            android:background="#000000"
+	            android:orientation="vertical"
+	            android:clickable = "true" >
+	        	
+	            <ImageView
+	                android:id="@+id/imageView1"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:src="@drawable/eit284" />
+	    	     
+	            
+	        </LinearLayout>
+	
+	        <LinearLayout
+	            android:id="@+id/eit304"
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent"
+	            android:layout_weight="0.5"
+	            android:background="#000000"
+	            android:orientation="vertical" 
+	            android:clickable = "true">
+	            
+	            <ImageView
+	                android:id="@+id/imageView1"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:src="@drawable/eit304" />
+	            
+	        </LinearLayout>
+	    </LinearLayout>
+	    
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:orientation="horizontal"
+	        android:layout_weight="0.25"
+	        >
+	        
+	        <LinearLayout
+	            android:id="@+id/hmi"
+		        android:layout_width="match_parent"
+		        android:layout_height="match_parent"
+		        android:orientation="vertical"
+		        android:background="#000000" 
+		        android:layout_weight="0.5"
+		        android:clickable = "true">
+	            
+	            <ImageView
+	                android:id="@+id/imageView1"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:src="@drawable/hmi" />
+	    	
+	    	</LinearLayout>
+	    	
+	    	<LinearLayout
+	            android:id="@+id/mag"
+		        android:layout_width="match_parent"
+		        android:layout_height="match_parent"
+		        android:orientation="vertical"
+		        android:background="#000000" 
+		        android:layout_weight="0.5"
+		        android:clickable = "true">
+	            
+	    	    <ImageView
+	                android:id="@+id/imageView1"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:src="@drawable/mag" />
+	    	    
+	    	</LinearLayout>
+	    
+	    </LinearLayout>
+	
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:orientation="horizontal"
+	        android:layout_weight="0.25" >
+	
+	        <LinearLayout
+	            android:id="@+id/c2"
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent"
+	            android:layout_weight="0.5"
+	            android:background="#000000"
+	            android:orientation="vertical" 
+	            android:clickable = "true">
+	    	    
+	            <ImageView
+	                android:id="@+id/imageView1"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:src="@drawable/c2" />
+	            
+	        </LinearLayout>
+	
+	        <LinearLayout
+	            android:id="@+id/c3"
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent"
+	            android:layout_weight="0.5"
+	            android:background="#000000"
+	            android:orientation="vertical"
+	            android:clickable = "true" >
+	            
+	            <ImageView
+	                android:id="@+id/imageView1"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:src="@drawable/c3" />
+	            
+	        </LinearLayout>
+	    </LinearLayout>
+	    
+	</LinearLayout>
+	    
+</FrameLayout>
